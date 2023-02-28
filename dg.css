@@ -1,0 +1,37 @@
+body {
+    background-color: antiquewhite;
+    font-size: larger;
+}
+
+.grid-container {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1/4 100px 4/4;
+    grid-template-rows: 100px 100px 100px;
+    background-color: rgb(73, 173, 255);
+    gap: 5px;
+    text-align: center;
+}
+
+.item1 {
+    background-color: rgb(226, 43, 220);
+
+}
+
+.item2 {
+    background-color: rgb(255, 110, 173);
+    grid-row: 3/4;
+}
+
+.item3 {
+    background-color: rgb(226, 43, 220);
+}
+
+.item4 {
+    background-color: rgb(255, 110, 173);
+}
+
+.item5 {
+    background-color: rgb(226, 43, 220);
+}
